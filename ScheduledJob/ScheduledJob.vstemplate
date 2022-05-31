@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+	<TemplateData>
+		<Name>Optimizely Scheduled Job</Name>
+		<Description>Creates a scheduled job class</Description>
+		<Icon>opti.ico</Icon>
+		<TemplateID>439d9470-4e2f-4b51-a1d3-e5ae8c8bec2c</TemplateID>
+		<ProjectType>CSharp</ProjectType>
+		<TemplateGroupID>AspNetCore</TemplateGroupID>
+		<RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+		<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+		<DefaultName>ScheduledJob.cs</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<References>
+			<Reference>
+				<Assembly>System</Assembly>
+			</Reference>
+		</References>
+		<ProjectItem ReplaceParameters="true">ScheduledJob.cs</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
